@@ -1,0 +1,7 @@
+{
+  "name": "code-block",
+  "main": ["./code-block.css"],
+  "dependencies": {
+    "stylus-type-utils": "latest"
+  }
+}

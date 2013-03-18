@@ -1,0 +1,41 @@
+@import "config"
+
+// Code (inline and blocK)
+// --------------------------------------------------
+
+code,
+pre
+  color: code-block-color
+  padding: 0 0.2em 0.15em
+  overflow: auto
+  font-size: rem(base-font-size * 0.925)
+  font-family: code-block-font-family
+  line-height: base-line-height
+  border-radius: base-border-radius
+
+code
+  color: #c7254e
+  font-size: 85%
+  padding: 0.2em 0.3em
+  background-color: code-pre-background
+
+pre
+  margin: 0 0 em(base-line-height / 2)
+  padding: 1em
+  display: block
+  line-height: base-line-height
+  white-space: pre
+  border: 1px solid code-block-border
+  border-left-width: 6px
+  background: code-block-background
+  code
+    color: inherit
+    border: 0
+    padding: 0
+    background: none
+    white-space: pre
+
+// Enable scrollable blocks of code
+.pre-scrollable
+  max-height: code-block-scrobbable-height
+  overflow-y: scroll
