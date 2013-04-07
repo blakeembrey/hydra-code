@@ -2,6 +2,12 @@
 
 // Code (inline and blocK)
 // --------------------------------------------------
+kbd,
+pre,
+code,
+samp
+  font-family: code-block-font-family
+  font-size: 1em
 
 pre,
 code
@@ -9,22 +15,21 @@ code
   padding: 0 0.2em 0.15em
   overflow: auto
   font-size: code-block-font-size
-  font-family: code-block-font-family
   line-height: code-block-line-height
-  border-radius: base-border-radius
+  white-space: pre
+  border-radius: code-block-border-radius
 
 code
-  color: #c7254e
+  color: code-block-code-color
   font-size: 85%
   padding: 0.2em 0.3em
-  background-color: code-pre-background
+  background-color: code-block-code-background
 
 pre
   margin: 0 0 em(code-block-line-height / 2)
   padding: 1em
   display: block
   line-height: code-block-line-height
-  white-space: pre
   border: 1px solid code-block-border
   border-left-width: 6px
   background: code-block-background
@@ -34,9 +39,23 @@ pre
     padding: 0
     font-size: 100% // Child of pre should be full size again
     background: none
-    white-space: pre
 
 // Enable scrollable blocks of code
 .pre-scrollable
   max-height: code-block-scrobbable-height
   overflow-y: scroll
+
+kbd
+  display: inline-block
+  margin: 0 0.1em
+  padding: 0.1em 0.6em
+  color: code-block-kbd-color
+  font-size: 0.7em
+  line-height: 1.4
+  font-family: code-block-kbd-font-family
+  vertical-align: middle
+  text-shadow: 0 1px 0 #fff
+  border: 1px solid code-block-kbd-border
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2), 0 0 0 2px #fff inset
+  background: code-block-kbd-background
+  border-radius: code-block-border-radius

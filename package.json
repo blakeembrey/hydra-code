@@ -1,6 +1,6 @@
 {
   "name": "code-block",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple CSS reset for code blocks",
   "main": "lib/code-block.js",
   "scripts": {

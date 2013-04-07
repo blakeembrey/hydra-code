@@ -1,6 +1,6 @@
 # Code Blocks
 
-Simple CSS code block style resets. For `pre` and `code` HTML tags.
+Simple CSS code block style resets. For `pre`, `code` and `kbd` HTML tags.
 
 ## Installation
 
@@ -12,7 +12,7 @@ $ component install blakeembrey/code-block
 
 ## CSS API
 
-Provides styles for `pre` and `code` tags, plus a single class called `.pre-scrollable` which makes the `pre` tag scrollable vertically.
+Provides styles for `pre`, `code` and `kbd` tags, plus a single class called `.pre-scrollable` which makes the `pre` tag scrollable vertically.
 
 ## License
 

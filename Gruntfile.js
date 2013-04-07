@@ -15,6 +15,15 @@ module.exports = function (grunt) {
           'code-block.css': 'lib/code-block/index.styl'
         }
       }
+    },
+
+    watch: {
+      stylus: {
+        files: [
+          'lib/**/*.styl'
+        ],
+        tasks: ['stylus']
+      }
     }
 
   });
