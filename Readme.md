@@ -1,4 +1,4 @@
-# Code Blocks
+# Hydra Code Blocks
 
 Simple CSS code block style resets. For `pre`, `code` and `kbd` HTML tags.
 

@@ -1,5 +1,5 @@
 {
-  "name": "code-block",
+  "name": "hydra-code",
   "main": ["./code-block.css"],
   "version": "0.0.3",
   "dependencies": {
