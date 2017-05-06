@@ -1,5 +1,7 @@
 # Hydra Code Blocks
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/hydra-code.svg)](https://greenkeeper.io/)
+
 Simple CSS code block style resets. For `pre`, `code` and `kbd` HTML tags.
 
 ## Installation
